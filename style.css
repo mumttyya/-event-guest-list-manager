@@ -1,0 +1,109 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"], select {
+  flex: 1 1 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  flex: 1 1 30%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Guest List Styles */
+ul#guest-list {
+  padding: 0;
+}
+
+ul#guest-list li {
+  list-style: none;
+  padding: 12px 10px;
+  margin-bottom: 10px;
+  border-left: 6px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Category Coloring */
+.friend {
+  border-left-color: green;
+}
+
+.family {
+  border-left-color: blue;
+}
+
+.colleague {
+  border-left-color: purple;
+}
+
+/* Button Styles in List */
+.remove-btn,
+.rsvp-btn {
+  margin-left: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.remove-btn:hover {
+  background-color: #b02a37;
+}
+
+.rsvp-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.rsvp-btn:hover {
+  background-color: #5a6268;
+}
